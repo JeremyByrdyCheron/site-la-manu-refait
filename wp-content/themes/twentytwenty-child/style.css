@@ -1,0 +1,114 @@
+/*
+ Theme Name:   theme enfant de twenty twenty
+ Theme URI:    https://49ac-195-7-105-60.ngrok-free.app/
+ Description:  Twenty Twenty Child Theme
+ Author:       Jeremy
+ Author URI:   https://49ac-195-7-105-60.ngrok-free.app/
+ Template:     twentytwenty
+ Version:      1.0.0
+*/
+
+@import url("/wp-content/themes/twentytwenty/style.css");
+@import url("https://use.typekit.net/wlo2sbr.css");
+
+
+
+/* change les boutons de la nav */
+.menu-item a {
+  border: 2px solid #ffffff !important;
+  background-color: #3a0088 !important;
+  border-radius: 12px !important;
+  padding: 8px 12px !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  color: #ffffff !important;
+}
+/* change la couleur de fond des boutons du formulaire */
+.wpcf7-submit {
+  background-color: #3a0088 !important ;
+
+}
+
+p:has(.wpcf7-submit){  display: flex;
+  justify-content: center;
+
+}
+/* change la couleur du texte des liens dans le footer*/
+.footer-widgets-wrapper .column-two .widget_text .widget-content p a {
+  color: #ffffff !important;
+}
+
+.entry-title a {
+  color: #3a0088 !important;
+}
+/* change la marge interne des boutons de nav à l'intérieur de la page d'accueil */
+.wp-block-column-is-layout-flow {
+  padding: 20px !important;
+  padding-left: 25px;
+}
+/* change la couleur du bouton au survol */
+.menu-item a:hover {
+  border: 2px solid #3a0088 !important;
+  background-color: #ffffff !important;
+  border-radius: 12px !important;
+  padding: 8px 12px !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  color: #3a0088 !important;
+}
+/* toutes les lignes suivantes changent les polices */
+
+body {
+  font-family: "futura-pt", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+h2 {
+  font-family: "futura-pt", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+.wp-block-heading strong {
+  font-family: "futura-pt", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+h4 strong {
+  font-family: "futura-pt", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+a strong {
+  font-family: "futura-pt", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+/* change la couleur des catégories pour les mettre en rose */
+.entry-categories-inner a {
+  color: #e6007e !important;
+}
+/* change la couleur des catégories pour les mettre en rose */
+.archive-title :first-child {
+  color: #e6007e !important;
+}
+/* change la couleur du lien de téléchargement du pdf*/
+#wp-block-file--media-25707436-a1a6-402c-927b-62eec236af43{
+    color: #e6007e;
+}
+
+
+/* change la couleur du bouton de téléchargement du pdf*/
+.wp-block-file__button{
+    background-color: #e6007e !important;
+}
+/* change dans les formulaires la couleur autour des input */
+input{
+    border: 2px solid #3a0088 !important;
+    border-radius: 12px !important;
+    padding: 8px 12px !important;
+    text-decoration: none !important;
+}
